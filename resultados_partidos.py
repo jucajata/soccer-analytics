@@ -10,7 +10,7 @@ from utils_scripts.u_busqueda_competicion import busqueda_competicion
 def resultados_partidos(url:str=None):
 
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    dotenv_path = os.path.join(BASE_DIR, 'sports/.env')
+    dotenv_path = os.path.join(BASE_DIR, 'soccer-analytics/.env')
     load_dotenv(dotenv_path)
 
 
