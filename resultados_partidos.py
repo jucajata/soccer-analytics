@@ -89,6 +89,4 @@ def resultados_partidos(url:str=None):
     conn.close()
 
     return results_data
-
-resultados_partidos()
 #TODO: ¿Qué hacer con los partidos donde hay más de 10 goles?

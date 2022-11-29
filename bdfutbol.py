@@ -68,6 +68,4 @@ def actualizar_bd_resultado_partido():
             except:
                 continue
 
-actualizar_bd_resultado_partido()
-
 conn.close()
