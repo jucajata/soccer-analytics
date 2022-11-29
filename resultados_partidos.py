@@ -90,5 +90,5 @@ def resultados_partidos(url:str=None):
 
     return results_data
 
-
+resultados_partidos()
 #TODO: ¿Qué hacer con los partidos donde hay más de 10 goles?

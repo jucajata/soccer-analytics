@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-dotenv_path = os.path.join(BASE_DIR, 'sports/.env')
+dotenv_path = os.path.join(BASE_DIR, 'soccer-analytics/.env')
 load_dotenv(dotenv_path)
 
 # Connect to your postgres DB
