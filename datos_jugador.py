@@ -31,12 +31,6 @@ def datos_jugador(url:str=None):
     data = requests.get(url).text
     soup = BeautifulSoup(data, 'html5lib')
 
-
-
-    fecha = '2022-10-06'
-
-
-
     # almacenamiento en df
     table_rows=soup.find_all('tr')
 #    results_data = pd.DataFrame(columns=["Fecha", "Local", "ResLocal", "ResVisitante", "Visitante", "Estadio", "Árbitro", "LinkDatosPartido", "Competición"])
