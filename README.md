@@ -39,7 +39,7 @@ Al usuario 'postgres' cambiar el método de autenticación de 'trust' a 'md5', e
 Guardar los cambios.
 ```
 
-7. Reiniciar el servicio de PostgreSQL luego de realizar los cambios en el numeral 7:
+7. Reiniciar el servicio de PostgreSQL luego de realizar los cambios en el numeral 6:
 ```
 sudo /etc/init.d/postgresql restart
 ```
