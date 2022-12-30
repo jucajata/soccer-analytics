@@ -1,0 +1,357 @@
+fecha,equipo,jugador,accion,minuto,minuto_complementario,titular,equipo_local,resultado_local,resultado_visitante,equipo_visitante,competicion
+2022-08-12,Osasuna,Aimar,Gol de Penalty,74.0,,True,Osasuna,2,1,Sevilla,La Liga/2022-2023
+2022-08-12,Sevilla,Rafa Mir,Gol,11.0,,True,Osasuna,2,1,Sevilla,La Liga/2022-2023
+2022-08-12,Osasuna,Chimy Ávila,Gol,9.0,,True,Osasuna,2,1,Sevilla,La Liga/2022-2023
+2022-08-13,Celta de Vigo,Iago Aspas,Gol,,45+2,True,Celta de Vigo,2,2,Espanyol,La Liga/2022-2023
+2022-08-13,Espanyol,Joselu,Gol de Penalty,,90+8,True,Celta de Vigo,2,2,Espanyol,La Liga/2022-2023
+2022-08-13,Espanyol,Edu Expósito,Gol,72.0,,False,Celta de Vigo,2,2,Espanyol,La Liga/2022-2023
+2022-08-13,Celta de Vigo,Paciência,Gol,63.0,,True,Celta de Vigo,2,2,Espanyol,La Liga/2022-2023
+2022-08-13,Villarreal,Álex Baena,Gol,90.0,,False,Valladolid,0,3,Villarreal,La Liga/2022-2023
+2022-08-13,Villarreal,Álex Baena,Gol,81.0,,False,Valladolid,0,3,Villarreal,La Liga/2022-2023
+2022-08-13,Villarreal,Jackson,Gol,49.0,,True,Valladolid,0,3,Villarreal,La Liga/2022-2023
+2022-08-14,Real Sociedad,Kubo,Gol,24.0,,True,Cádiz,0,1,Real Sociedad,La Liga/2022-2023
+2022-08-14,Valencia,Carlos Soler,Gol de Penalty,,45+1,True,Valencia,1,0,Girona,La Liga/2022-2023
+2022-08-14,Real Madrid,Alaba,Gol,75.0,,False,Almería,1,2,Real Madrid,La Liga/2022-2023
+2022-08-14,Real Madrid,Lucas Vázquez,Gol,61.0,,True,Almería,1,2,Real Madrid,La Liga/2022-2023
+2022-08-14,Almería,Ramazani,Gol,6.0,,True,Almería,1,2,Real Madrid,La Liga/2022-2023
+2022-08-15,Atlético de Madrid,Griezmann,Gol,75.0,,False,Getafe,0,3,Atlético de Madrid,La Liga/2022-2023
+2022-08-15,Atlético de Madrid,Morata,Gol,59.0,,True,Getafe,0,3,Atlético de Madrid,La Liga/2022-2023
+2022-08-15,Atlético de Madrid,Morata,Gol,15.0,,True,Getafe,0,3,Atlético de Madrid,La Liga/2022-2023
+2022-08-15,Betis,Juanmi,Gol,60.0,,True,Betis,3,0,Elche,La Liga/2022-2023
+2022-08-15,Betis,Juanmi,Gol,39.0,,True,Betis,3,0,Elche,La Liga/2022-2023
+2022-08-15,Betis,Borja Iglesias,Gol,28.0,,True,Betis,3,0,Elche,La Liga/2022-2023
+2022-08-19,Rayo Vallecano,Pathé Ciss,Gol,59.0,,True,Espanyol,0,2,Rayo Vallecano,La Liga/2022-2023
+2022-08-19,Rayo Vallecano,Isi,Gol,40.0,,True,Espanyol,0,2,Rayo Vallecano,La Liga/2022-2023
+2022-08-19,Sevilla,Rekik,Gol,86.0,,True,Sevilla,1,1,Valladolid,La Liga/2022-2023
+2022-08-19,Valladolid,Anuar,Gol,80.0,,True,Sevilla,1,1,Valladolid,La Liga/2022-2023
+2022-08-20,Osasuna,Kike García,Gol de Penalty,79.0,,False,Osasuna,2,0,Cádiz,La Liga/2022-2023
+2022-08-20,Osasuna,Chimy Ávila,Gol de Penalty,37.0,,True,Osasuna,2,0,Cádiz,La Liga/2022-2023
+2022-08-20,Betis,Borja Iglesias,Gol de Penalty,73.0,,True,Mallorca,1,2,Betis,La Liga/2022-2023
+2022-08-20,Mallorca,Muriqi,Gol,56.0,,True,Mallorca,1,2,Betis,La Liga/2022-2023
+2022-08-20,Betis,Borja Iglesias,Gol de Penalty,9.0,,True,Mallorca,1,2,Betis,La Liga/2022-2023
+2022-08-20,Real Madrid,Valverde,Gol,66.0,,True,Celta de Vigo,1,4,Real Madrid,La Liga/2022-2023
+2022-08-20,Real Madrid,Vinícius,Gol,56.0,,True,Celta de Vigo,1,4,Real Madrid,La Liga/2022-2023
+2022-08-20,Real Madrid,Modrić,Gol,42.0,,True,Celta de Vigo,1,4,Real Madrid,La Liga/2022-2023
+2022-08-20,Celta de Vigo,Iago Aspas,Gol de Penalty,23.0,,True,Celta de Vigo,1,4,Real Madrid,La Liga/2022-2023
+2022-08-20,Real Madrid,Benzema,Gol de Penalty,14.0,,True,Celta de Vigo,1,4,Real Madrid,La Liga/2022-2023
+2022-08-21,Athletic Club,Berenguer,Gol,42.0,,True,Athletic Club,1,0,Valencia,La Liga/2022-2023
+2022-08-21,Villarreal,Gerard Moreno,Gol,,90+7,True,Atlético de Madrid,0,2,Villarreal,La Liga/2022-2023
+2022-08-21,Villarreal,Yéremy Pino,Gol,73.0,,True,Atlético de Madrid,0,2,Villarreal,La Liga/2022-2023
+2022-08-21,Barcelona,Ansu Fati,Gol,79.0,,False,Real Sociedad,1,4,Barcelona,La Liga/2022-2023
+2022-08-21,Barcelona,Lewandowski,Gol,68.0,,True,Real Sociedad,1,4,Barcelona,La Liga/2022-2023
+2022-08-21,Barcelona,Dembélé,Gol,66.0,,True,Real Sociedad,1,4,Barcelona,La Liga/2022-2023
+2022-08-21,Real Sociedad,Isak,Gol,6.0,,True,Real Sociedad,1,4,Barcelona,La Liga/2022-2023
+2022-08-21,Barcelona,Lewandowski,Gol,1.0,,True,Real Sociedad,1,4,Barcelona,La Liga/2022-2023
+2022-08-22,Elche,Collado,Gol,30.0,,True,Elche,1,1,Almería,La Liga/2022-2023
+2022-08-22,Almería,Sadiq,Gol,23.0,,True,Elche,1,1,Almería,La Liga/2022-2023
+2022-08-22,Getafe,Ünal,Gol,73.0,,True,Girona,3,1,Getafe,La Liga/2022-2023
+2022-08-22,Girona,Castellanos,Gol,64.0,,True,Girona,3,1,Getafe,La Liga/2022-2023
+2022-08-22,Getafe,Duarte,Gol en propia puerta,47.0,,True,Girona,3,1,Getafe,La Liga/2022-2023
+2022-08-22,Girona,Stuani,Gol,42.0,,True,Girona,3,1,Getafe,La Liga/2022-2023
+2022-08-26,Celta de Vigo,Iago Aspas,Gol,49.0,,True,Girona,0,1,Celta de Vigo,La Liga/2022-2023
+2022-08-26,Betis,Borja Iglesias,Gol,34.0,,True,Betis,1,0,Osasuna,La Liga/2022-2023
+2022-08-27,Real Sociedad,Brais Méndez,Gol,20.0,,True,Elche,0,1,Real Sociedad,La Liga/2022-2023
+2022-08-27,Mallorca,Lee,Gol,64.0,,True,Rayo Vallecano,0,2,Mallorca,La Liga/2022-2023
+2022-08-27,Mallorca,Muriqi,Gol,13.0,,True,Rayo Vallecano,0,2,Mallorca,La Liga/2022-2023
+2022-08-27,Almería,Sadiq,Gol,55.0,,True,Almería,2,1,Sevilla,La Liga/2022-2023
+2022-08-27,Almería,Ramazani,Gol,42.0,,True,Almería,2,1,Sevilla,La Liga/2022-2023
+2022-08-27,Sevilla,Óliver Torres,Gol,30.0,,True,Almería,2,1,Sevilla,La Liga/2022-2023
+2022-08-28,Barcelona,Sergi Roberto,Gol,,90+2,False,Barcelona,4,0,Valladolid,La Liga/2022-2023
+2022-08-28,Barcelona,Lewandowski,Gol,64.0,,True,Barcelona,4,0,Valladolid,La Liga/2022-2023
+2022-08-28,Barcelona,Pedri,Gol,43.0,,True,Barcelona,4,0,Valladolid,La Liga/2022-2023
+2022-08-28,Barcelona,Lewandowski,Gol,24.0,,True,Barcelona,4,0,Valladolid,La Liga/2022-2023
+2022-08-28,Real Madrid,Benzema,Gol,,90+10,True,Espanyol,1,3,Real Madrid,La Liga/2022-2023
+2022-08-28,Real Madrid,Benzema,Gol,88.0,,True,Espanyol,1,3,Real Madrid,La Liga/2022-2023
+2022-08-28,Espanyol,Joselu,Gol,43.0,,True,Espanyol,1,3,Real Madrid,La Liga/2022-2023
+2022-08-28,Real Madrid,Vinícius,Gol,12.0,,True,Espanyol,1,3,Real Madrid,La Liga/2022-2023
+2022-08-29,Athletic Club,Guruzeta,Gol,,90+3,False,Cádiz,0,4,Athletic Club,La Liga/2022-2023
+2022-08-29,Athletic Club,Berenguer,Gol,78.0,,True,Cádiz,0,4,Athletic Club,La Liga/2022-2023
+2022-08-29,Athletic Club,Guruzeta,Gol,56.0,,False,Cádiz,0,4,Athletic Club,La Liga/2022-2023
+2022-08-29,Athletic Club,Williams,Gol,24.0,,True,Cádiz,0,4,Athletic Club,La Liga/2022-2023
+2022-08-29,Atlético de Madrid,Griezmann,Gol,66.0,,False,Valencia,0,1,Atlético de Madrid,La Liga/2022-2023
+2022-09-02,Celta de Vigo,Iago Aspas,Gol,75.0,,True,Celta de Vigo,3,0,Cádiz,La Liga/2022-2023
+2022-09-02,Celta de Vigo,Óscar Rodríguez,Gol,62.0,,True,Celta de Vigo,3,0,Cádiz,La Liga/2022-2023
+2022-09-02,Celta de Vigo,Iago Aspas,Gol,56.0,,True,Celta de Vigo,3,0,Cádiz,La Liga/2022-2023
+2022-09-03,Girona,Samu Saiz,Gol de Penalty,,90+2,False,Mallorca,1,1,Girona,La Liga/2022-2023
+2022-09-03,Mallorca,Raíllo,Gol,87.0,,True,Mallorca,1,1,Girona,La Liga/2022-2023
+2022-09-03,Real Madrid,Rodrygo,Gol,65.0,,True,Real Madrid,2,1,Betis,La Liga/2022-2023
+2022-09-03,Betis,Canales,Gol,17.0,,True,Real Madrid,2,1,Betis,La Liga/2022-2023
+2022-09-03,Real Madrid,Vinícius,Gol,9.0,,True,Real Madrid,2,1,Betis,La Liga/2022-2023
+2022-09-03,Real Sociedad,Sadiq,Gol,55.0,,False,Real Sociedad,1,1,Atlético de Madrid,La Liga/2022-2023
+2022-09-03,Atlético de Madrid,Morata,Gol,5.0,,True,Real Sociedad,1,1,Atlético de Madrid,La Liga/2022-2023
+2022-09-03,Barcelona,Eric Garcia,Gol,50.0,,True,Sevilla,0,3,Barcelona,La Liga/2022-2023
+2022-09-03,Barcelona,Lewandowski,Gol,36.0,,True,Sevilla,0,3,Barcelona,La Liga/2022-2023
+2022-09-03,Barcelona,Raphinha,Gol,21.0,,True,Sevilla,0,3,Barcelona,La Liga/2022-2023
+2022-09-04,Osasuna,Rubén García,Gol,90.0,,False,Osasuna,2,1,Rayo Vallecano,La Liga/2022-2023
+2022-09-04,Rayo Vallecano,Lejeune,Gol,75.0,,True,Osasuna,2,1,Rayo Vallecano,La Liga/2022-2023
+2022-09-04,Osasuna,Aimar,Gol,54.0,,True,Osasuna,2,1,Rayo Vallecano,La Liga/2022-2023
+2022-09-04,Espanyol,Braithwaite,Gol,83.0,,True,Athletic Club,0,1,Espanyol,La Liga/2022-2023
+2022-09-04,Villarreal,Morales,Gol,,90+3,False,Villarreal,4,0,Elche,La Liga/2022-2023
+2022-09-04,Villarreal,Coquelin,Gol,89.0,,False,Villarreal,4,0,Elche,La Liga/2022-2023
+2022-09-04,Villarreal,Lo Celso,Gol,36.0,,True,Villarreal,4,0,Elche,La Liga/2022-2023
+2022-09-04,Villarreal,Gerard Moreno,Gol,26.0,,True,Villarreal,4,0,Elche,La Liga/2022-2023
+2022-09-04,Getafe,Gastón Álvarez,Gol,78.0,,False,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-04,Valencia,Duro,Gol,68.0,,False,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-04,Valencia,Nico,Gol,65.0,,True,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-04,Valencia,Samu Castillejo,Gol,16.0,,True,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-04,Valencia,Lino,Gol,14.0,,True,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-04,Valencia,Lato,Gol,7.0,,True,Valencia,5,1,Getafe,La Liga/2022-2023
+2022-09-05,Valladolid,Weissman,Gol,,90+3,False,Valladolid,1,0,Almería,La Liga/2022-2023
+2022-09-09,Girona,Romeu,Gol,88.0,,True,Girona,2,1,Valladolid,La Liga/2022-2023
+2022-09-09,Valladolid,Monchu,Gol,38.0,,True,Girona,2,1,Valladolid,La Liga/2022-2023
+2022-09-09,Girona,Reinier,Gol,21.0,,True,Girona,2,1,Valladolid,La Liga/2022-2023
+2022-09-10,Valencia,Diakhaby,Gol,,90+3,True,Rayo Vallecano,2,1,Valencia,La Liga/2022-2023
+2022-09-10,Valencia,Nico,Gol en propia puerta,52.0,,True,Rayo Vallecano,2,1,Valencia,La Liga/2022-2023
+2022-09-10,Rayo Vallecano,Isi,Gol,5.0,,True,Rayo Vallecano,2,1,Valencia,La Liga/2022-2023
+2022-09-10,Espanyol,Joselu,Gol de Penalty,,45+4,True,Espanyol,2,3,Sevilla,La Liga/2022-2023
+2022-09-10,Espanyol,Braithwaite,Gol,62.0,,True,Espanyol,2,3,Sevilla,La Liga/2022-2023
+2022-09-10,Sevilla,Carmona,Gol,45.0,,True,Espanyol,2,3,Sevilla,La Liga/2022-2023
+2022-09-10,Sevilla,Carmona,Gol,26.0,,True,Espanyol,2,3,Sevilla,La Liga/2022-2023
+2022-09-10,Sevilla,Lamela,Gol,1.0,,True,Espanyol,2,3,Sevilla,La Liga/2022-2023
+2022-09-10,Barcelona,Dembélé,Gol,,90+2,False,Cádiz,0,4,Barcelona,La Liga/2022-2023
+2022-09-10,Barcelona,Ansu Fati,Gol,86.0,,False,Cádiz,0,4,Barcelona,La Liga/2022-2023
+2022-09-10,Barcelona,Lewandowski,Gol,65.0,,False,Cádiz,0,4,Barcelona,La Liga/2022-2023
+2022-09-10,Barcelona,De Jong,Gol,55.0,,True,Cádiz,0,4,Barcelona,La Liga/2022-2023
+2022-09-11,Real Madrid,Valverde,Gol,,45+3,True,Real Madrid,4,1,Mallorca,La Liga/2022-2023
+2022-09-11,Real Madrid,Rüdiger,Gol,,90+3,True,Real Madrid,4,1,Mallorca,La Liga/2022-2023
+2022-09-11,Real Madrid,Rodrygo,Gol,89.0,,True,Real Madrid,4,1,Mallorca,La Liga/2022-2023
+2022-09-11,Real Madrid,Vinícius,Gol,72.0,,True,Real Madrid,4,1,Mallorca,La Liga/2022-2023
+2022-09-11,Mallorca,Muriqi,Gol,35.0,,True,Real Madrid,4,1,Mallorca,La Liga/2022-2023
+2022-09-11,Getafe,Ünal,Gol,,45+5,True,Getafe,2,1,Real Sociedad,La Liga/2022-2023
+2022-09-11,Real Sociedad,Brais Méndez,Gol,50.0,,False,Getafe,2,1,Real Sociedad,La Liga/2022-2023
+2022-09-11,Getafe,Aleñá,Gol,48.0,,True,Getafe,2,1,Real Sociedad,La Liga/2022-2023
+2022-09-11,Elche,Ponce,Gol,59.0,,False,Elche,1,4,Athletic Club,La Liga/2022-2023
+2022-09-11,Athletic Club,Berenguer,Gol,44.0,,True,Elche,1,4,Athletic Club,La Liga/2022-2023
+2022-09-11,Athletic Club,Nico Williams,Gol,22.0,,True,Elche,1,4,Athletic Club,La Liga/2022-2023
+2022-09-11,Athletic Club,Sancet,Gol de Penalty,14.0,,True,Elche,1,4,Athletic Club,La Liga/2022-2023
+2022-09-11,Elche,Nico Fernández,Gol en propia puerta,9.0,,True,Elche,1,4,Athletic Club,La Liga/2022-2023
+2022-09-10,Celta de Vigo,Nuñez,Gol en propia puerta,82.0,,True,Atlético de Madrid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-09-10,Celta de Vigo B,Veiga,Gol,71.0,,False,Atlético de Madrid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-09-10,Atlético de Madrid,Carrasco,Gol,66.0,,True,Atlético de Madrid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-09-10,Atlético de Madrid,De Paul,Gol,50.0,,True,Atlético de Madrid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-09-10,Atlético de Madrid,Correa,Gol,9.0,,True,Atlético de Madrid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-09-11,Betis,Rodri,Gol,61.0,,True,Betis,1,0,Villarreal,La Liga/2022-2023
+2022-09-12,Osasuna,Chimy Ávila,Gol,28.0,,True,Almería,0,1,Osasuna,La Liga/2022-2023
+2022-09-17,Rayo Vallecano,Falcao,Gol,80.0,,False,Athletic Club,3,2,Rayo Vallecano,La Liga/2022-2023
+2022-09-17,Athletic Club,Nico Williams,Gol,33.0,,True,Athletic Club,3,2,Rayo Vallecano,La Liga/2022-2023
+2022-09-17,Athletic Club,Sancet,Gol,28.0,,True,Athletic Club,3,2,Rayo Vallecano,La Liga/2022-2023
+2022-09-17,Athletic Club,Williams,Gol,14.0,,True,Athletic Club,3,2,Rayo Vallecano,La Liga/2022-2023
+2022-09-17,Rayo Vallecano,Trejo,Gol,5.0,,True,Athletic Club,3,2,Rayo Vallecano,La Liga/2022-2023
+2022-09-18,Atlético de Madrid,Hermoso,Gol,83.0,,False,Atlético de Madrid,1,2,Real Madrid,La Liga/2022-2023
+2022-09-18,Real Madrid,Valverde,Gol,36.0,,True,Atlético de Madrid,1,2,Real Madrid,La Liga/2022-2023
+2022-09-18,Real Madrid,Rodrygo,Gol,18.0,,True,Atlético de Madrid,1,2,Real Madrid,La Liga/2022-2023
+2022-09-17,Barcelona,Lewandowski,Gol,48.0,,True,Barcelona,3,0,Elche,La Liga/2022-2023
+2022-09-17,Barcelona,Depay,Gol,41.0,,True,Barcelona,3,0,Elche,La Liga/2022-2023
+2022-09-17,Barcelona,Lewandowski,Gol,34.0,,True,Barcelona,3,0,Elche,La Liga/2022-2023
+2022-09-18,Betis,Borja Iglesias,Gol,71.0,,True,Betis,2,1,Girona,La Liga/2022-2023
+2022-09-18,Betis,Borja Iglesias,Gol de Penalty,15.0,,True,Betis,2,1,Girona,La Liga/2022-2023
+2022-09-18,Girona,Arnau,Gol,7.0,,True,Betis,2,1,Girona,La Liga/2022-2023
+2022-09-17,Valencia,André Almeida,Gol,,90+3,True,Valencia,3,0,Celta de Vigo,La Liga/2022-2023
+2022-09-17,Valencia,Marcos André,Gol,82.0,,False,Valencia,3,0,Celta de Vigo,La Liga/2022-2023
+2022-09-17,Valencia,Samu Castillejo,Gol,37.0,,True,Valencia,3,0,Celta de Vigo,La Liga/2022-2023
+2022-09-18,Getafe,Gastón Álvarez,Gol,76.0,,True,Osasuna,0,2,Getafe,La Liga/2022-2023
+2022-09-18,Getafe,Juan Iglesias,Gol,30.0,,True,Osasuna,0,2,Getafe,La Liga/2022-2023
+2022-09-16,Cádiz,Negredo,Gol,,90+2,False,Valladolid,0,1,Cádiz,La Liga/2022-2023
+2022-09-18,Real Sociedad,Brais Méndez,Gol,29.0,,True,Real Sociedad,2,1,Espanyol,La Liga/2022-2023
+2022-09-18,Espanyol,Edu Expósito,Gol,19.0,,True,Real Sociedad,2,1,Espanyol,La Liga/2022-2023
+2022-09-18,Real Sociedad,Sørloth,Gol,17.0,,True,Real Sociedad,2,1,Espanyol,La Liga/2022-2023
+2022-09-18,Villarreal,Álex Baena,Gol,51.0,,False,Villarreal,1,1,Sevilla,La Liga/2022-2023
+2022-09-18,Sevilla,Óliver Torres,Gol,8.0,,True,Villarreal,1,1,Sevilla,La Liga/2022-2023
+2022-09-17,Mallorca,Maffeo,Gol,25.0,,True,Mallorca,1,0,Almería,La Liga/2022-2023
+2022-10-01,Valladolid,Óscar Plano,Gol,48.0,,True,Getafe,2,3,Valladolid,La Liga/2022-2023
+2022-10-01,Valladolid,Sergio León,Gol,37.0,,True,Getafe,2,3,Valladolid,La Liga/2022-2023
+2022-10-01,Getafe,Damián Suárez,Gol,31.0,,True,Getafe,2,3,Valladolid,La Liga/2022-2023
+2022-10-01,Getafe,Mayoral,Gol,29.0,,True,Getafe,2,3,Valladolid,La Liga/2022-2023
+2022-10-01,Valladolid,Sergio León,Gol de Penalty,20.0,,True,Getafe,2,3,Valladolid,La Liga/2022-2023
+2022-10-02,Valencia,Cömert,Gol,,90+6,False,Espanyol,2,2,Valencia,La Liga/2022-2023
+2022-10-02,Espanyol,Darder,Gol,83.0,,True,Espanyol,2,2,Valencia,La Liga/2022-2023
+2022-10-02,Espanyol,Joselu,Gol,56.0,,True,Espanyol,2,2,Valencia,La Liga/2022-2023
+2022-10-02,Valencia,Gabriel Paulista,Gol,53.0,,True,Espanyol,2,2,Valencia,La Liga/2022-2023
+2022-10-02,Real Sociedad,Kubo,Gol,85.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Real Sociedad,Zubimendi,Gol,71.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Real Sociedad,Brais Méndez,Gol,66.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Girona,Castellanos,Gol,48.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Real Sociedad,Sørloth,Gol,42.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Girona,Arnau,Gol,27.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Girona,Riquelme,Gol,23.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-02,Real Sociedad,Sørloth,Gol,8.0,,True,Girona,3,5,Real Sociedad,La Liga/2022-2023
+2022-10-01,Atlético de Madrid,Morata,Gol,57.0,,True,Sevilla,0,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-01,Atlético de Madrid,Marcos Llorente,Gol,29.0,,True,Sevilla,0,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-01,Barcelona,Lewandowski,Gol,20.0,,True,Mallorca,0,1,Barcelona,La Liga/2022-2023
+2022-10-02,Celta de Vigo,Veiga,Gol,9.0,,True,Celta de Vigo,1,0,Betis,La Liga/2022-2023
+2022-10-03,Rayo Vallecano,Unai López,Gol,,90+5,False,Rayo Vallecano,2,1,Elche,La Liga/2022-2023
+2022-10-03,Rayo Vallecano,Camello,Gol,40.0,,True,Rayo Vallecano,2,1,Elche,La Liga/2022-2023
+2022-10-03,Elche,Boyé,Gol,32.0,,True,Rayo Vallecano,2,1,Elche,La Liga/2022-2023
+2022-10-02,Osasuna,Kike García,Gol,50.0,,True,Real Madrid,1,1,Osasuna,La Liga/2022-2023
+2022-10-02,Real Madrid,Vinícius,Gol,42.0,,True,Real Madrid,1,1,Osasuna,La Liga/2022-2023
+2022-09-30,Athletic Club,Vesga,Gol de Penalty,84.0,,False,Athletic Club,4,0,Almería,La Liga/2022-2023
+2022-09-30,Athletic Club,Nico Williams,Gol,62.0,,True,Athletic Club,4,0,Almería,La Liga/2022-2023
+2022-09-30,Athletic Club,Sancet,Gol,17.0,,True,Athletic Club,4,0,Almería,La Liga/2022-2023
+2022-09-30,Athletic Club,Williams,Gol,10.0,,True,Athletic Club,4,0,Almería,La Liga/2022-2023
+2022-10-08,Girona,Riquelme,Gol,66.0,,True,Atlético de Madrid,2,1,Girona,La Liga/2022-2023
+2022-10-08,Atlético de Madrid,Correa,Gol,48.0,,True,Atlético de Madrid,2,1,Girona,La Liga/2022-2023
+2022-10-08,Atlético de Madrid,Correa,Gol,5.0,,True,Atlético de Madrid,2,1,Girona,La Liga/2022-2023
+2022-10-09,Barcelona,Pedri,Gol,17.0,,True,Barcelona,1,0,Celta de Vigo,La Liga/2022-2023
+2022-10-10,Mallorca,Muriqi,Gol de Penalty,71.0,,True,Elche,1,1,Mallorca,La Liga/2022-2023
+2022-10-10,Elche,Ponce,Gol,15.0,,True,Elche,1,1,Mallorca,La Liga/2022-2023
+2022-10-08,Real Madrid,Militão,Gol,3.0,,True,Getafe,0,1,Real Madrid,La Liga/2022-2023
+2022-10-09,Cádiz,Lucas Pérez,Gol,78.0,,False,Cádiz,2,2,Espanyol,La Liga/2022-2023
+2022-10-09,Espanyol,Joselu,Gol,67.0,,True,Cádiz,2,2,Espanyol,La Liga/2022-2023
+2022-10-09,Espanyol,Joselu,Gol,51.0,,True,Cádiz,2,2,Espanyol,La Liga/2022-2023
+2022-10-09,Cádiz,Chust,Gol,41.0,,True,Cádiz,2,2,Espanyol,La Liga/2022-2023
+2022-10-07,Osasuna,Brašanac,Gol,,90+3,False,Osasuna,1,2,Valencia,La Liga/2022-2023
+2022-10-07,Valencia,Diakhaby,Gol,54.0,,True,Osasuna,1,2,Valencia,La Liga/2022-2023
+2022-10-07,Valencia,Kluivert,Gol,28.0,,True,Osasuna,1,2,Valencia,La Liga/2022-2023
+2022-10-09,Real Sociedad,Brais Méndez,Gol,33.0,,True,Real Sociedad,1,0,Villarreal,La Liga/2022-2023
+2022-10-08,Rayo Vallecano,Catena,Gol,81.0,,True,Almería,3,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-08,Almería,El Bilal,Gol,39.0,,True,Almería,3,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-08,Almería,Babić,Gol,17.0,,True,Almería,3,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-08,Almería,Robertone,Gol,8.0,,True,Almería,3,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-08,Athletic Club,Vesga,Gol,73.0,,False,Sevilla,1,1,Athletic Club,La Liga/2022-2023
+2022-10-08,Sevilla,Óliver Torres,Gol,4.0,,True,Sevilla,1,1,Athletic Club,La Liga/2022-2023
+2022-10-15,Atlético de Madrid,Griezmann,Gol,47.0,,True,Athletic Club,0,1,Atlético de Madrid,La Liga/2022-2023
+2022-10-16,Real Sociedad,Zubeldia,Gol,54.0,,True,Celta de Vigo,1,2,Real Sociedad,La Liga/2022-2023
+2022-10-16,Celta de Vigo,Iago Aspas,Gol,39.0,,True,Celta de Vigo,1,2,Real Sociedad,La Liga/2022-2023
+2022-10-16,Real Sociedad,Illarramendi,Gol,30.0,,True,Celta de Vigo,1,2,Real Sociedad,La Liga/2022-2023
+2022-10-15,Sevilla,Gudelj,Gol,53.0,,True,Mallorca,0,1,Sevilla,La Liga/2022-2023
+2022-10-16,Espanyol,Joselu,Gol,78.0,,True,Espanyol,1,0,Valladolid,La Liga/2022-2023
+2022-10-16,Real Madrid,Rodrygo,Gol de Penalty,,90+1,False,Real Madrid,3,1,Barcelona,La Liga/2022-2023
+2022-10-16,Barcelona,Ferran Torres,Gol,83.0,,False,Real Madrid,3,1,Barcelona,La Liga/2022-2023
+2022-10-16,Real Madrid,Valverde,Gol,35.0,,True,Real Madrid,3,1,Barcelona,La Liga/2022-2023
+2022-10-16,Real Madrid,Benzema,Gol,12.0,,True,Real Madrid,3,1,Barcelona,La Liga/2022-2023
+2022-10-15,Valencia,Cavani,Gol,,45+7,True,Valencia,2,2,Elche,La Liga/2022-2023
+2022-10-15,Elche,Pere Milla,Gol,65.0,,True,Valencia,2,2,Elche,La Liga/2022-2023
+2022-10-15,Valencia,Cavani,Gol de Penalty,41.0,,True,Valencia,2,2,Elche,La Liga/2022-2023
+2022-10-15,Elche,Pere Milla,Gol de Penalty,29.0,,True,Valencia,2,2,Elche,La Liga/2022-2023
+2022-10-15,Girona,Stuani,Gol de Penalty,,90+12,False,Girona,1,1,Cádiz,La Liga/2022-2023
+2022-10-15,Cádiz,Álex Fernández,Gol,46.0,,True,Girona,1,1,Cádiz,La Liga/2022-2023
+2022-10-17,Villarreal,Danjuma,Gol de Penalty,52.0,,True,Villarreal,2,0,Osasuna,La Liga/2022-2023
+2022-10-17,Villarreal,Danjuma,Gol,42.0,,True,Villarreal,2,0,Osasuna,La Liga/2022-2023
+2022-10-16,Betis,William Carvalho,Gol,71.0,,True,Betis,3,1,Almería,La Liga/2022-2023
+2022-10-16,Betis,Borja Iglesias,Gol,66.0,,True,Betis,3,1,Almería,La Liga/2022-2023
+2022-10-16,Almería,El Bilal,Gol,52.0,,True,Betis,3,1,Almería,La Liga/2022-2023
+2022-10-16,Betis,William Carvalho,Gol,23.0,,True,Betis,3,1,Almería,La Liga/2022-2023
+2022-10-18,Rayo Vallecano,Falcao,Gol de Penalty,,90+2,True,Atlético de Madrid,1,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-18,Atlético de Madrid,Morata,Gol,20.0,,True,Atlético de Madrid,1,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-20,Barcelona,Ansu Fati,Gol,38.0,,True,Barcelona,3,0,Villarreal,La Liga/2022-2023
+2022-10-20,Barcelona,Lewandowski,Gol,35.0,,True,Barcelona,3,0,Villarreal,La Liga/2022-2023
+2022-10-20,Barcelona,Lewandowski,Gol,31.0,,True,Barcelona,3,0,Villarreal,La Liga/2022-2023
+2022-10-19,Real Madrid,Asensio,Gol,89.0,,False,Elche,0,3,Real Madrid,La Liga/2022-2023
+2022-10-19,Real Madrid,Benzema,Gol,75.0,,True,Elche,0,3,Real Madrid,La Liga/2022-2023
+2022-10-19,Real Madrid,Valverde,Gol,11.0,,True,Elche,0,3,Real Madrid,La Liga/2022-2023
+2022-10-18,Sevilla,Lamela,Gol,86.0,,False,Sevilla,1,1,Valencia,La Liga/2022-2023
+2022-10-18,Valencia,Cavani,Gol,6.0,,True,Sevilla,1,1,Valencia,La Liga/2022-2023
+2022-10-20,Girona,Stuani,Gol de Penalty,83.0,,True,Almería,3,2,Girona,La Liga/2022-2023
+2022-10-20,Girona,Riquelme,Gol,47.0,,True,Almería,3,2,Girona,La Liga/2022-2023
+2022-10-20,Almería,Embarba,Gol,38.0,,True,Almería,3,2,Girona,La Liga/2022-2023
+2022-10-20,Almería,El Bilal,Gol,17.0,,True,Almería,3,2,Girona,La Liga/2022-2023
+2022-10-20,Almería,Léo Baptistão,Gol,13.0,,True,Almería,3,2,Girona,La Liga/2022-2023
+2022-10-18,Getafe,Munir,Gol,76.0,,False,Getafe,2,2,Athletic Club,La Liga/2022-2023
+2022-10-18,Athletic Club,Raúl García,Gol,62.0,,False,Getafe,2,2,Athletic Club,La Liga/2022-2023
+2022-10-18,Getafe,Aleñá,Gol,27.0,,True,Getafe,2,2,Athletic Club,La Liga/2022-2023
+2022-10-18,Athletic Club,Williams,Gol,2.0,,True,Getafe,2,2,Athletic Club,La Liga/2022-2023
+2022-10-19,Valladolid,Sergio León,Gol,79.0,,False,Valladolid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-10-19,Valladolid,Sergio León,Gol,74.0,,False,Valladolid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-10-19,Valladolid,Joaquín,Gol,62.0,,True,Valladolid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-10-19,Celta de Vigo,Óscar Rodríguez,Gol,43.0,,True,Valladolid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-10-19,Valladolid,Roque Mesa,Gol,32.0,,True,Valladolid,4,1,Celta de Vigo,La Liga/2022-2023
+2022-10-19,Real Sociedad,Merino,Gol,4.0,,True,Real Sociedad,1,0,Mallorca,La Liga/2022-2023
+2022-10-20,Osasuna,Budimir,Gol,55.0,,True,Osasuna,1,0,Espanyol,La Liga/2022-2023
+2022-10-24,Celta de Vigo,Aidoo,Gol,89.0,,True,Celta de Vigo,1,1,Getafe,La Liga/2022-2023
+2022-10-24,Getafe,Ünal,Gol,43.0,,True,Celta de Vigo,1,1,Getafe,La Liga/2022-2023
+2022-10-22,Real Madrid,Valverde,Gol,81.0,,True,Real Madrid,3,1,Sevilla,La Liga/2022-2023
+2022-10-22,Real Madrid,Lucas Vázquez,Gol,79.0,,False,Real Madrid,3,1,Sevilla,La Liga/2022-2023
+2022-10-22,Sevilla,Lamela,Gol,54.0,,True,Real Madrid,3,1,Sevilla,La Liga/2022-2023
+2022-10-22,Real Madrid,Modrić,Gol,5.0,,True,Real Madrid,3,1,Sevilla,La Liga/2022-2023
+2022-10-23,Girona,David López,Gol,,45+1,True,Girona,1,1,Osasuna,La Liga/2022-2023
+2022-10-23,Osasuna,Kike Barja,Gol,37.0,,False,Girona,1,1,Osasuna,La Liga/2022-2023
+2022-10-23,Barcelona,Ferran Torres,Gol,73.0,,False,Barcelona,4,0,Athletic Club,La Liga/2022-2023
+2022-10-23,Barcelona,Lewandowski,Gol,22.0,,True,Barcelona,4,0,Athletic Club,La Liga/2022-2023
+2022-10-23,Barcelona,Sergi Roberto,Gol,18.0,,True,Barcelona,4,0,Athletic Club,La Liga/2022-2023
+2022-10-23,Barcelona,Dembélé,Gol,12.0,,True,Barcelona,4,0,Athletic Club,La Liga/2022-2023
+2022-10-23,Betis,Fekir,Gol,84.0,,False,Betis,1,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-23,Atlético de Madrid,Griezmann,Gol,71.0,,True,Betis,1,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-23,Atlético de Madrid,Griezmann,Gol,54.0,,True,Betis,1,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-23,Elche,Gonzalo Verdú,Gol,82.0,,True,Espanyol,2,2,Elche,La Liga/2022-2023
+2022-10-23,Espanyol,Braithwaite,Gol,67.0,,True,Espanyol,2,2,Elche,La Liga/2022-2023
+2022-10-23,Espanyol,Puado,Gol,24.0,,True,Espanyol,2,2,Elche,La Liga/2022-2023
+2022-10-23,Elche,Pere Milla,Gol,11.0,,True,Espanyol,2,2,Elche,La Liga/2022-2023
+2022-10-22,Mallorca,Lee,Gol,83.0,,True,Valencia,1,2,Mallorca,La Liga/2022-2023
+2022-10-22,Mallorca,Muriqi,Gol de Penalty,66.0,,True,Valencia,1,2,Mallorca,La Liga/2022-2023
+2022-10-22,Valencia,Cavani,Gol de Penalty,52.0,,True,Valencia,1,2,Mallorca,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Álvaro García,Gol,,45+2,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Lejeune,Gol,89.0,,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Balliu,Gol en propia puerta,82.0,,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Camello,Gol,79.0,,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Lejeune,Gol,63.0,,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Rayo Vallecano,Isi,Gol de Penalty,44.0,,True,Rayo Vallecano,5,1,Cádiz,La Liga/2022-2023
+2022-10-22,Valladolid,Sergio León,Gol,16.0,,True,Valladolid,1,0,Real Sociedad,La Liga/2022-2023
+2022-10-23,Villarreal,Jackson,Gol,,90+4,False,Villarreal,2,1,Almería,La Liga/2022-2023
+2022-10-23,Villarreal,Álex Baena,Gol,56.0,,True,Villarreal,2,1,Almería,La Liga/2022-2023
+2022-10-23,Almería,Melero,Gol,31.0,,True,Villarreal,2,1,Almería,La Liga/2022-2023
+2022-10-30,Athletic Club,Williams,Gol,59.0,,True,Athletic Club,1,0,Villarreal,La Liga/2022-2023
+2022-10-31,Getafe,Ünal,Gol,54.0,,True,Elche,0,1,Getafe,La Liga/2022-2023
+2022-10-30,Osasuna,Moi Gómez,Gol,19.0,,True,Osasuna,2,0,Valladolid,La Liga/2022-2023
+2022-10-30,Osasuna,Chimy Ávila,Gol de Penalty,13.0,,True,Osasuna,2,0,Valladolid,La Liga/2022-2023
+2022-10-29,Almería,Eguaras,Gol,,90+6,False,Almería,3,1,Celta de Vigo,La Liga/2022-2023
+2022-10-29,Almería,De la Hoz,Gol,60.0,,True,Almería,3,1,Celta de Vigo,La Liga/2022-2023
+2022-10-29,Almería,Lázaro,Gol,52.0,,False,Almería,3,1,Celta de Vigo,La Liga/2022-2023
+2022-10-29,Celta de Vigo,Veiga,Gol,25.0,,True,Almería,3,1,Celta de Vigo,La Liga/2022-2023
+2022-10-29,Cádiz,Sobrino,Gol,,90+9,True,Cádiz,3,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-29,Atlético de Madrid,João Félix,Gol,89.0,,False,Cádiz,3,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-29,Atlético de Madrid,João Félix,Gol,85.0,,False,Cádiz,3,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-29,Cádiz,Álex Fernández,Gol,81.0,,True,Cádiz,3,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-29,Cádiz,Bongonda,Gol,1.0,,True,Cádiz,3,2,Atlético de Madrid,La Liga/2022-2023
+2022-10-29,Barcelona,Lewandowski,Gol,,90+3,True,Valencia,0,1,Barcelona,La Liga/2022-2023
+2022-10-30,Betis,Borja Iglesias,Gol,,90+3,True,Real Sociedad,0,2,Betis,La Liga/2022-2023
+2022-10-30,Betis,Juan Cruz,Gol,86.0,,False,Real Sociedad,0,2,Betis,La Liga/2022-2023
+2022-10-28,Espanyol,Lazo,Gol,70.0,,False,Mallorca,1,1,Espanyol,La Liga/2022-2023
+2022-10-28,Mallorca,Muriqi,Gol,48.0,,True,Mallorca,1,1,Espanyol,La Liga/2022-2023
+2022-10-29,Rayo Vallecano,Álvaro García,Gol,61.0,,True,Sevilla,0,1,Rayo Vallecano,La Liga/2022-2023
+2022-10-30,Girona,Stuani,Gol de Penalty,80.0,,False,Real Madrid,1,1,Girona,La Liga/2022-2023
+2022-10-30,Real Madrid,Vinícius,Gol,70.0,,True,Real Madrid,1,1,Girona,La Liga/2022-2023
+2022-11-06,Atlético de Madrid,João Félix,Gol,78.0,,False,Atlético de Madrid,1,1,Espanyol,La Liga/2022-2023
+2022-11-06,Espanyol,Darder,Gol,62.0,,True,Atlético de Madrid,1,1,Espanyol,La Liga/2022-2023
+2022-11-06,Sevilla,Gudelj,Gol,81.0,,True,Betis,1,1,Sevilla,La Liga/2022-2023
+2022-11-06,Sevilla,Jesús Navas,Gol en propia puerta,43.0,,False,Betis,1,1,Sevilla,La Liga/2022-2023
+2022-11-05,Osasuna,Chimy Ávila,Gol,28.0,,True,Celta de Vigo,1,2,Osasuna,La Liga/2022-2023
+2022-11-05,Celta de Vigo,Iago Aspas,Gol,19.0,,True,Celta de Vigo,1,2,Osasuna,La Liga/2022-2023
+2022-11-05,Osasuna,Chimy Ávila,Gol,8.0,,True,Celta de Vigo,1,2,Osasuna,La Liga/2022-2023
+2022-11-06,Valencia,Lino,Gol,25.0,,True,Real Sociedad,1,1,Valencia,La Liga/2022-2023
+2022-11-06,Valencia,Guillamón,Gol en propia puerta,10.0,,True,Real Sociedad,1,1,Valencia,La Liga/2022-2023
+2022-11-07,Rayo Vallecano,Trejo,Gol de Penalty,67.0,,True,Rayo Vallecano,3,2,Real Madrid,La Liga/2022-2023
+2022-11-07,Rayo Vallecano,Álvaro García,Gol,44.0,,True,Rayo Vallecano,3,2,Real Madrid,La Liga/2022-2023
+2022-11-07,Real Madrid,Militão,Gol,41.0,,True,Rayo Vallecano,3,2,Real Madrid,La Liga/2022-2023
+2022-11-07,Real Madrid,Modrić,Gol de Penalty,37.0,,True,Rayo Vallecano,3,2,Real Madrid,La Liga/2022-2023
+2022-11-07,Rayo Vallecano,Comesaña,Gol,5.0,,True,Rayo Vallecano,3,2,Real Madrid,La Liga/2022-2023
+2022-11-04,Athletic Club,Guruzeta,Gol,78.0,,False,Girona,2,1,Athletic Club,La Liga/2022-2023
+2022-11-04,Girona,Iván Martín,Gol,75.0,,False,Girona,2,1,Athletic Club,La Liga/2022-2023
+2022-11-04,Girona,David López,Gol,67.0,,True,Girona,2,1,Athletic Club,La Liga/2022-2023
+2022-11-05,Elche,Josan,Gol,63.0,,False,Valladolid,2,1,Elche,La Liga/2022-2023
+2022-11-05,Valladolid,Roque Mesa,Gol,46.0,,True,Valladolid,2,1,Elche,La Liga/2022-2023
+2022-11-05,Valladolid,Javi Sánchez,Gol,40.0,,True,Valladolid,2,1,Elche,La Liga/2022-2023
+2022-11-06,Mallorca,Amath,Gol,75.0,,False,Villarreal,0,2,Mallorca,La Liga/2022-2023
+2022-11-06,Mallorca,Muriqi,Gol,32.0,,True,Villarreal,0,2,Mallorca,La Liga/2022-2023
+2022-11-05,Barcelona,De Jong,Gol,62.0,,True,Barcelona,2,0,Almería,La Liga/2022-2023
+2022-11-05,Barcelona,Dembélé,Gol,48.0,,True,Barcelona,2,0,Almería,La Liga/2022-2023
+2022-11-08,Athletic Club,Vivian,Gol,78.0,,True,Athletic Club,3,0,Valladolid,La Liga/2022-2023
+2022-11-08,Athletic Club,Guruzeta,Gol,51.0,,True,Athletic Club,3,0,Valladolid,La Liga/2022-2023
+2022-11-08,Athletic Club,Guruzeta,Gol,19.0,,True,Athletic Club,3,0,Valladolid,La Liga/2022-2023
+2022-11-08,Girona,Castellanos,Gol,66.0,,True,Elche,1,2,Girona,La Liga/2022-2023
+2022-11-08,Girona,Iván Martín,Gol,39.0,,False,Elche,1,2,Girona,La Liga/2022-2023
+2022-11-08,Elche,Lirola,Gol,16.0,,True,Elche,1,2,Girona,La Liga/2022-2023
+2022-11-09,Espanyol,Lecomte,Gol en propia puerta,64.0,,True,Espanyol,0,1,Villarreal,La Liga/2022-2023
+2022-11-09,Almería,Léo Baptistão,Gol,26.0,,True,Almería,1,0,Getafe,La Liga/2022-2023
+2022-11-09,Mallorca,Muriqi,Gol,16.0,,True,Mallorca,1,0,Atlético de Madrid,La Liga/2022-2023
+2022-11-08,Barcelona,Raphinha,Gol,85.0,,False,Osasuna,1,2,Barcelona,La Liga/2022-2023
+2022-11-08,Barcelona,Pedri,Gol,48.0,,True,Osasuna,1,2,Barcelona,La Liga/2022-2023
+2022-11-08,Osasuna,David García,Gol,6.0,,True,Osasuna,1,2,Barcelona,La Liga/2022-2023
+2022-11-10,Valencia,Kluivert,Gol,,90+3,False,Valencia,3,0,Betis,La Liga/2022-2023
+2022-11-10,Valencia,Guillamón,Gol de Penalty,81.0,,False,Valencia,3,0,Betis,La Liga/2022-2023
+2022-11-10,Valencia,André Almeida,Gol,63.0,,True,Valencia,3,0,Betis,La Liga/2022-2023
+2022-11-10,Cádiz,Lucas Pérez,Gol,81.0,,False,Real Madrid,2,1,Cádiz,La Liga/2022-2023
+2022-11-10,Real Madrid,Kroos,Gol,70.0,,True,Real Madrid,2,1,Cádiz,La Liga/2022-2023
+2022-11-10,Real Madrid,Militão,Gol,40.0,,True,Real Madrid,2,1,Cádiz,La Liga/2022-2023
+2022-11-09,Sevilla,Rafa Mir,Gol,44.0,,True,Sevilla,1,2,Real Sociedad,La Liga/2022-2023
+2022-11-09,Real Sociedad,Brais Méndez,Gol,36.0,,True,Sevilla,1,2,Real Sociedad,La Liga/2022-2023
+2022-11-09,Real Sociedad,Sørloth,Gol,20.0,,True,Sevilla,1,2,Real Sociedad,La Liga/2022-2023
