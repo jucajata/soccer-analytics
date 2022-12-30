@@ -39,7 +39,7 @@ def actualizar_bd_resultados_partidos():
 def actualizar_bd_resultado_partido():
     
     # Execute a query
-    cur.execute(f"SELECT * FROM resultados_partidos WHERE competicion LIKE '%Premier League/2022-2023%'")  # obtengo links con los que voy a actualizar
+    cur.execute(f"SELECT * FROM resultados_partidos WHERE competicion LIKE '%La Liga/2022-2023%'")  # obtengo links con los que voy a actualizar
 
     # Retrieve query results
     records = cur.fetchall()
@@ -55,17 +55,17 @@ def actualizar_bd_resultado_partido():
         'Competición'
         ])
     list_links = list(df['Link Datos Partido'])
-    for link in list_links:
-        try:
-            cur.execute(f"SELECT link_datos_partido l FROM resultado_partido WHERE l={link}")
-            records = cur.fetchall()
-            if records is not None:
-                continue
-        except:
-            try:
-                resultado_partido(url=link)
-                print(link)
-            except:
-                continue
 
+    cur.execute(f"SELECT DISTINCT(link_datos_partido) FROM resultado_partido")
+    list_links_rp = [item[0] for item in cur.fetchall()]
+
+    for link in list_links:
+        if link in list_links_rp:
+            continue
+        else:
+            resultado_partido(url=link)
+            print(link)
+
+
+actualizar_bd_resultado_partido()
 conn.close()

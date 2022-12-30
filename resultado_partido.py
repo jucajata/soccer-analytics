@@ -74,7 +74,7 @@ def resultado_partido(url:str=None):
                     for division in divisions:
                         if division['class'][0]=='cosa':
                             accion = division.div['title']
-                            minuto = division.text
+                            minuto = division.text.strip()
                             minuto_complementario = None
 
                             if len(minuto)>3:
