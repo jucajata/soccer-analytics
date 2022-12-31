@@ -39,7 +39,21 @@ def actualizar_bd_resultados_partidos():
             print(url)
 
 
+def update_db_rps(): # actualizar bd de resultados partidos
+    # TODO: poner un timer para poder poner no, en caso de que se llegue a 0 en t actualizar db.
+    actualizar_bd_rps = input('¿Actualizar base de datos de resultados partidos? (s/n): ').lower()
+
+    if actualizar_bd_rps == 's':
+        actualizar_bd_resultados_partidos()
+    elif actualizar_bd_rps == 'n':
+        pass
+    else:
+        update_db_rps()
+
+
 def actualizar_bd_resultado_partido():
+
+    update_db_rps()
 
     # selección del año para el filtro de la query
     try:
