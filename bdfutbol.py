@@ -27,7 +27,10 @@ def actualizar_bd_resultados_partidos():
         #alemana#francesa#alemana#italiana#portuguesa#holandesa#brasilera#española
     ligas = ['teng', 'tfra', 'tger', 'tita', 'tpor', 'thol', 'tbra', 't']
 
-    years = range(datetime.now().year, datetime.now().year+1)
+    try:
+        years = range(datetime.now().year, datetime.now().year+1)
+    except: # en caso de que la temporada esté en el último año y no en el primero
+        years = range(datetime.now().year-1, datetime.now().year)
 
     for liga in ligas:
         for year in years:
@@ -37,9 +40,27 @@ def actualizar_bd_resultados_partidos():
 
 
 def actualizar_bd_resultado_partido():
+
+    # selección del año para el filtro de la query
+    try:
+        years = list(range(datetime.now().year, datetime.now().year+2))
+    except: # en caso de que la temporada esté en el último año y no en el primero
+        years = list(range(datetime.now().year-1, datetime.now().year+1))
+
+    # input para escoger la liga a actualizar
+    print('Listado de ligas: ')
+    cur.execute(f"SELECT DISTINCT(competicion) FROM resultados_partidos WHERE competicion LIKE '%{str(years[0])}-{str(years[1])}%'")
+    competencias = [competencia[0] for competencia in cur.fetchall()]
+    i = 1
+    for competencia in competencias:
+        print(i,': ',competencia)
+        i += 1
+
+    liga = competencias[int(input('¿Cuál liga quieres actualizar? (elige el número de la liga): '))-1]
+    print(liga)
     
     # Execute a query
-    cur.execute(f"SELECT * FROM resultados_partidos WHERE competicion LIKE '%La Liga/2022-2023%'")  # obtengo links con los que voy a actualizar
+    cur.execute(f"SELECT * FROM resultados_partidos WHERE competicion LIKE '%{liga}%'")  # obtengo links con los que voy a actualizar
 
     # Retrieve query results
     records = cur.fetchall()

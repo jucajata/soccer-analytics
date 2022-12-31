@@ -9,7 +9,7 @@ dotenv_path = os.path.join(BASE_DIR, 'soccer-analytics/.env')
 load_dotenv(dotenv_path)
 
 
-def consulta_goles_liga():
+def consulta_acciones_liga():
 
     # Connect to your postgres DB
     conn = psycopg2.connect(
@@ -35,12 +35,11 @@ def consulta_goles_liga():
                         FROM (SELECT * 
                             FROM resultado_partido
                             WHERE accion IS NOT NULL
-                            AND (accion LIKE '%Gol%')
                             ORDER BY link_datos_partido, minuto DESC) AS subquery 
                         INNER JOIN 
                             (SELECT *
                             FROM resultados_partidos) AS S
-                        ON subquery.link_datos_partido = S.link_datos_partido;''')
+                        ON subquery.link_datos_partido = S.link_datos_partido''')
 
     # Retrieve query results
     data = cur.fetchall()
@@ -61,4 +60,4 @@ def consulta_goles_liga():
     df.to_csv('consulta_goles_liga.csv', index=False)
     print('Datos cargados en el csv')
 
-consulta_goles_liga()
+consulta_acciones_liga()

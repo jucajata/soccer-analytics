@@ -3,6 +3,12 @@ SELECT *
 FROM resultado_partido 
 ORDER BY link_datos_partido, equipo, titular DESC;
 
+-- Query básica de la tabla resultado_partido
+SELECT * 
+FROM resultado_partido
+WHERE link_datos_partido LIKE 'https://www.bdfutbol.com/es/p/p.php?id=66%'
+ORDER BY fecha DESC, link_datos_partido DESC, equipo, titular DESC;
+
 
 -- Query para obtener los goles de cada partido organizado por minuto
 SELECT subquery.fecha,
@@ -20,7 +26,6 @@ SELECT subquery.fecha,
 FROM (SELECT * 
       FROM resultado_partido
       WHERE accion IS NOT NULL
-      AND (accion LIKE '%Gol%')
       ORDER BY link_datos_partido, minuto DESC) AS subquery 
 INNER JOIN 
      (SELECT *
