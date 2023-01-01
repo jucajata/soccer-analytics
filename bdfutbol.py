@@ -27,15 +27,15 @@ def actualizar_bd_resultados_partidos():
         #alemana#francesa#alemana#italiana#portuguesa#holandesa#brasilera#española
     ligas = ['teng', 'tfra', 'tger', 'tita', 'tpor', 'thol', 'tbra', 't']
 
-    try:
-        years = range(datetime.now().year, datetime.now().year+1)
-    except: # en caso de que la temporada esté en el último año y no en el primero
-        years = range(datetime.now().year-1, datetime.now().year)
+    years = range(datetime.now().year, datetime.now().year+1)
 
     for liga in ligas:
         for year in years:
             url = f'https://www.bdfutbol.com/es/t/{liga}{str(year)}-{str(year+1)[-2:]}.html?tab=results'
-            resultados_partidos(url=url)
+            results_data = resultados_partidos(url=url)
+            if len(results_data) == 0:
+                url = f'https://www.bdfutbol.com/es/t/{liga}{str(year-1)}-{str(year)[-2:]}.html?tab=results'
+                results_data = resultados_partidos(url=url)
             print(url)
 
 
@@ -56,15 +56,18 @@ def actualizar_bd_resultado_partido():
     update_db_rps()
 
     # selección del año para el filtro de la query
-    try:
-        years = list(range(datetime.now().year, datetime.now().year+2))
-    except: # en caso de que la temporada esté en el último año y no en el primero
-        years = list(range(datetime.now().year-1, datetime.now().year+1))
+    years = list(range(datetime.now().year, datetime.now().year+2))
 
     # input para escoger la liga a actualizar
     print('Listado de ligas: ')
     cur.execute(f"SELECT DISTINCT(competicion) FROM resultados_partidos WHERE competicion LIKE '%{str(years[0])}-{str(years[1])}%'")
     competencias = [competencia[0] for competencia in cur.fetchall()]
+
+    if len(competencias)==0:
+        years = list(range(datetime.now().year-1, datetime.now().year+1))
+        cur.execute(f"SELECT DISTINCT(competicion) FROM resultados_partidos WHERE competicion LIKE '%{str(years[0])}-{str(years[1])}%'")
+        competencias = [competencia[0] for competencia in cur.fetchall()]
+
     i = 1
     for competencia in competencias:
         print(i,': ',competencia)
