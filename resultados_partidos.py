@@ -78,10 +78,11 @@ def resultados_partidos(url:str=None):
             if link_datos_partido is None: #si está en None no se puede guardar en base de datos por ser primary key
                 continue
 
-            sql = "INSERT INTO resultados_partidos (fecha, equipo_local, resultado_local, resultado_visitante, equipo_visitante, estadio, arbitro, link_datos_partido, competicion) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+            sql = "INSERT INTO resultados_partidos (fecha, equipo_local, resultado_local, resultado_visitante, equipo_visitante, estadio, arbitro, link_datos_partido, competicion) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);"
             val = (fecha, local, resultado_local, resultado_visitante, visitante, estadio, arbitro, link_datos_partido, competicion)
             try:  # identificamos si ya existe en la bd
                 cur.execute(sql, val)
+                print(link_datos_partido)
                 conn.commit()
             except:
                 continue
