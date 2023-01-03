@@ -57,7 +57,11 @@ def consulta_acciones_liga():
         'equipo_visitante', 
         'competicion' ])
 
+    
+    df['local'] = [True if df['equipo_local'].iloc[i] == df['equipo'].iloc[i] else False for i in range(len(df))]
+
     df.to_csv('consulta_goles_liga.csv', index=False)
     print('Datos cargados en el csv')
+
 
 consulta_acciones_liga()
