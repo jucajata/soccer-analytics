@@ -20,11 +20,11 @@ def resultados_partidos(url:str=None):
                     user=os.getenv('POSTGRES_USER'), 
                     password=os.getenv('POSTGRES_PASSWORD'))
 
-                
+
 
     # Open a cursor to perform database operations
     cur = conn.cursor()
-    
+
 
     if url is None:
         url = 'https://www.bdfutbol.com/es/t/teng2022-23.html?tab=results'
@@ -81,9 +81,12 @@ def resultados_partidos(url:str=None):
             sql = "INSERT INTO resultados_partidos (fecha, equipo_local, resultado_local, resultado_visitante, equipo_visitante, estadio, arbitro, link_datos_partido, competicion) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);"
             val = (fecha, local, resultado_local, resultado_visitante, visitante, estadio, arbitro, link_datos_partido, competicion)
             try:  # identificamos si ya existe en la bd
-                cur.execute(sql, val)
-                print(link_datos_partido)
-                conn.commit()
+                cur.execute(f"SELECT * FROM resultados_partidos WHERE link_datos_partido = '{link_datos_partido}'")
+                r = len(cur.fetchall())
+                if r == 0:
+                    cur.execute(sql, val)
+                    print(link_datos_partido)
+                    conn.commit()
             except:
                 continue
 
