@@ -150,8 +150,40 @@ def resultado_partido(url:str=None):
 
                             sql = "INSERT INTO resultado_partido (fecha, equipo, num_camiseta, jugador, accion, minuto, minuto_complementario, titular, link_datos_jugador, link_datos_partido) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
                             val = (fecha, equipo, num_camiseta, jugador, accion, minuto, minuto_complementario, titular_bool, link_datos_jugador, link_datos_partido)
-                            cur.execute(sql, val)
-                            conn.commit()
+                            query = f'''
+                            SELECT * 
+                            FROM resultado_partido 
+                            WHERE fecha = '{fecha}'
+                            AND equipo = '{equipo}'
+                            AND num_camiseta = '{num_camiseta}'
+                            AND jugador = '{jugador}'
+                            AND accion = '{accion}'
+                            AND minuto = '{minuto}'
+                            AND minuto_complementario = '{minuto_complementario}'
+                            AND titular = '{titular_bool}'
+                            AND link_datos_jugador = '{link_datos_jugador}'
+                            AND link_datos_partido = '{link_datos_partido}';
+                            '''
+
+                            if minuto is None or minuto_complementario is None:
+                                query = f'''
+                                SELECT * 
+                                FROM resultado_partido 
+                                WHERE fecha = '{fecha}'
+                                AND equipo = '{equipo}'
+                                AND num_camiseta = '{num_camiseta}'
+                                AND jugador = '{jugador}'
+                                AND accion = '{accion}'
+                                AND titular = '{titular_bool}'
+                                AND link_datos_jugador = '{link_datos_jugador}'
+                                AND link_datos_partido = '{link_datos_partido}';
+                                '''
+
+                            cur.execute(query)
+                            r = len(cur.fetchall())
+                            if r == 0:
+                                cur.execute(sql, val)
+                                conn.commit()
 
                 except:
                     accion = None
@@ -224,8 +256,41 @@ def resultado_partido(url:str=None):
 
                     sql = "INSERT INTO resultado_partido (fecha, equipo, num_camiseta, jugador, accion, minuto, minuto_complementario, titular, link_datos_jugador, link_datos_partido) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
                     val = (fecha, equipo, num_camiseta, jugador, accion, minuto, minuto_complementario, titular_bool, link_datos_jugador, link_datos_partido)
-                    cur.execute(sql, val)
-                    conn.commit()
+                    
+                    query = f'''
+                    SELECT * 
+                    FROM resultado_partido 
+                    WHERE fecha = '{fecha}'
+                    AND equipo = '{equipo}'
+                    AND num_camiseta = '{num_camiseta}'
+                    AND jugador = '{jugador}'
+                    AND accion = '{accion}'
+                    AND minuto = '{minuto}'
+                    AND minuto_complementario = '{minuto_complementario}'
+                    AND titular = '{titular_bool}'
+                    AND link_datos_jugador = '{link_datos_jugador}'
+                    AND link_datos_partido = '{link_datos_partido}';
+                    '''
+
+                    if minuto is None or minuto_complementario is None:
+                        query = f'''
+                        SELECT * 
+                        FROM resultado_partido 
+                        WHERE fecha = '{fecha}'
+                        AND equipo = '{equipo}'
+                        AND num_camiseta = '{num_camiseta}'
+                        AND jugador = '{jugador}'
+                        AND accion = '{accion}'
+                        AND titular = '{titular_bool}'
+                        AND link_datos_jugador = '{link_datos_jugador}'
+                        AND link_datos_partido = '{link_datos_partido}';
+                        '''
+
+                    cur.execute(query)
+                    r = len(cur.fetchall())
+                    if r == 0:
+                        cur.execute(sql, val)
+                        conn.commit()
                     
             titular+=1
             if titular > 22:
