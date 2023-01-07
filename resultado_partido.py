@@ -37,8 +37,10 @@ def resultado_partido(url:str=None):
     list_datos = []
     for dato_partido in datos_partido:
         list_datos.append(dato_partido.text)
-
-    d, m, y = list_datos[:4][-1].split()[1].split(sep='/')
+    try:
+        d, m, y = list_datos[:4][-1].split()[1].split(sep='/')
+    except:
+        d, m, y = list_datos[:4][-2].split()[1].split(sep='/')
     d, m, y = int(d), int(m), int(y)
     fecha = date(y, m, d)
 
@@ -65,7 +67,10 @@ def resultado_partido(url:str=None):
         col = row.find_all('td')
         i+=1
         if len(list(col)) == 6 and i>100:
-            num_camiseta = int(col[0].text)
+            try:
+                num_camiseta = int(col[0].text)
+            except:
+                num_camiseta = 0
             jugador = col[3].text
 
             for j,cell in enumerate(col):
@@ -156,7 +161,6 @@ def resultado_partido(url:str=None):
                             WHERE fecha = '{fecha}'
                             AND equipo = '{equipo}'
                             AND num_camiseta = '{num_camiseta}'
-                            AND jugador = '{jugador}'
                             AND accion = '{accion}'
                             AND minuto = '{minuto}'
                             AND minuto_complementario = '{minuto_complementario}'
@@ -172,7 +176,6 @@ def resultado_partido(url:str=None):
                                 WHERE fecha = '{fecha}'
                                 AND equipo = '{equipo}'
                                 AND num_camiseta = '{num_camiseta}'
-                                AND jugador = '{jugador}'
                                 AND accion = '{accion}'
                                 AND titular = '{titular_bool}'
                                 AND link_datos_jugador = '{link_datos_jugador}'
@@ -263,7 +266,6 @@ def resultado_partido(url:str=None):
                     WHERE fecha = '{fecha}'
                     AND equipo = '{equipo}'
                     AND num_camiseta = '{num_camiseta}'
-                    AND jugador = '{jugador}'
                     AND accion = '{accion}'
                     AND minuto = '{minuto}'
                     AND minuto_complementario = '{minuto_complementario}'
@@ -279,7 +281,6 @@ def resultado_partido(url:str=None):
                         WHERE fecha = '{fecha}'
                         AND equipo = '{equipo}'
                         AND num_camiseta = '{num_camiseta}'
-                        AND jugador = '{jugador}'
                         AND accion = '{accion}'
                         AND titular = '{titular_bool}'
                         AND link_datos_jugador = '{link_datos_jugador}'
