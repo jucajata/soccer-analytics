@@ -13,16 +13,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 dotenv_path = os.path.join(BASE_DIR, 'soccer-analytics/.env')
 load_dotenv(dotenv_path)
 
-# Connect to your postgres DB
-conn = psycopg2.connect(
-                dbname=os.getenv('POSTGRES_DBNAME'), 
-                user=os.getenv('POSTGRES_USER'), 
-                password=os.getenv('POSTGRES_PASSWORD'))
-
-# Open a cursor to perform database operations
-cur = conn.cursor()
-
-
 def actualizar_bd_resultados_partidos():
         #alemana#francesa#alemana#italiana#portuguesa#holandesa#brasilera#española
     ligas = ['teng', 'tfra', 'tger', 'tita', 'tpor', 'thol', 'tbra', 't']
@@ -52,6 +42,15 @@ def update_db_rps(): # actualizar bd de resultados partidos
 
 
 def actualizar_bd_resultado_partido():
+
+    # Connect to your postgres DB
+    conn = psycopg2.connect(
+                    dbname=os.getenv('POSTGRES_DBNAME'), 
+                    user=os.getenv('POSTGRES_USER'), 
+                    password=os.getenv('POSTGRES_PASSWORD'))
+
+    # Open a cursor to perform database operations
+    cur = conn.cursor()
 
     update_db_rps()
 
@@ -104,6 +103,4 @@ def actualizar_bd_resultado_partido():
             resultado_partido(url=link)
             print(link)
 
-
-actualizar_bd_resultado_partido()
-conn.close()
+    conn.close()
